@@ -1,4 +1,4 @@
-"""
+a = """
 개발자 : Milk
 
 기계 클래스
@@ -28,6 +28,8 @@ class Machine:
         print("{}의 제품" .format(self.__person))
         print("모델명 : {}, 제품번호 : {}, 제조사 : {}" .format(self.__name, self.__num, self.__fac))
 
+
+print(a)
 
 m1 = Machine("kim")
 m2 = Machine("Park")
